@@ -1,0 +1,9 @@
+numpy
+scipy
+matplotlib
+seaborn
+scikit-learn
+ipywidgets
+discretize
+SimPEG
+pymatsolver

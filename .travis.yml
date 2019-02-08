@@ -1,0 +1,25 @@
+language: python
+python:
+- 3.6
+- "nightly"
+matrix:
+  allow_failures:
+    - python: "nightly"
+
+sudo: false
+
+before_install:
+  - wget http://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh -O miniconda.sh;
+  - chmod +x miniconda.sh
+  - ./miniconda.sh -b -p $HOME/miniconda
+  - export PATH=$HOME/anaconda/bin:$HOME/miniconda/bin:$PATH
+  - conda update --yes conda
+
+install:
+  - conda env create -f environment.yml
+  - source activate PGI-environment
+  - export MPLBACKEND="agg"
+  - pip install -r requirements_dev.txt
+
+script:
+  - travis_wait 35 nosetests tests -v -s
