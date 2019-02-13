@@ -11,7 +11,7 @@
 
 Notebooks and python scripts to reproduce the figures shown in Astic & Oldenburg (2019).
 
-<img src="figures/currents.png" width=40% align="middle">
+<img src="figures/DCexample_summary.png" width=50% align="middle">
 
 ## Summary
 
