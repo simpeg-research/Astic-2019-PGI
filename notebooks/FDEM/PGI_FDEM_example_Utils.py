@@ -1,5 +1,6 @@
 import numpy as np
 import matplotlib.pyplot as plt
+from SimPEG import Utils
 from scipy.interpolate import (
     LinearNDInterpolator, NearestNDInterpolator
 )
