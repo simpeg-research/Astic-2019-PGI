@@ -7,7 +7,6 @@ dependencies:
   - numpy
   - scipy>=1.0.0
   - matplotlib
-  - ipywidgets>=0.6.0
   - scikit-learn
   - seaborn
   - mkl
