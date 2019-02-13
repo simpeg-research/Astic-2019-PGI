@@ -12,9 +12,9 @@ dependencies:
   - scikit-learn
   - seaborn
 #  - gcc
-#  - tarfile
-#  - h5py
   - pip:
+    - tarfile
+    - h5py
     - pymatsolver
     - discretize
     - git+https://github.com/simpeg/simpegEM1D@master
