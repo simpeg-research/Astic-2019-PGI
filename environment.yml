@@ -13,7 +13,6 @@ dependencies:
   - seaborn
 #  - gcc
   - pip:
-    - tarfile
     - h5py
     - pymatsolver
     - discretize
