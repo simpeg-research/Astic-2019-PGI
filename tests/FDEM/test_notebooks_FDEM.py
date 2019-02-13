@@ -3,9 +3,8 @@ import testipynb
 import unittest
 
 NBDIR = os.path.sep.join(
-    os.path.abspath(__file__).split(os.path.sep)[:-2] + ['notebooks'] + ['FDEM']
+    os.path.abspath(__file__).split(os.path.sep)[:-3] + ['notebooks'] + ['FDEM']
 )
-print(NBDIR)
 
 
 class TestNotebooks(unittest.TestCase):
