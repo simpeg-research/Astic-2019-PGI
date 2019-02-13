@@ -11,10 +11,11 @@ dependencies:
   - mkl
   - scikit-learn
   - seaborn
+  - gcc
   - pip:
     - pymatsolver
     - discretize
     - git+https://github.com/simpeg/simpeg.git@examples/PGI
-    - git+https://github.com/simpeg/simpegEM1D
+    - git+https://github.com/simpeg/simpegEM1D@master
     - git+https://github.com/simpeg/tle-magnetotelluric_inversion@setup
 
