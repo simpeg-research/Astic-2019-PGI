@@ -12,6 +12,7 @@ dependencies:
   - seaborn
   - mkl
   - pip:
+    - gcc
     - h5py
     - pymatsolver
     - discretize
