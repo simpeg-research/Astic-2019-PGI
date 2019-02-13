@@ -377,6 +377,7 @@ def order_clusters_GM_mean(GMmodel, outputindex=False):
     if outputindex:
         return indx
 
+
 def weighted_avg_and_var(values, weights):
     """
     Return the weighted average and standard deviation.
