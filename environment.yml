@@ -11,7 +11,7 @@ dependencies:
   - mkl
   - scikit-learn
   - seaborn
-#  - gcc
+  - gcc
 #  - tarfile
 #  - h5py
   - pip:
