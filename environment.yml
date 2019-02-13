@@ -10,8 +10,9 @@ dependencies:
   - scikit-learn
   - seaborn
   - mkl
-  - pip:
+  - apt:
     - gcc
+  - pip:
     - h5py
     - pymatsolver
     - discretize
