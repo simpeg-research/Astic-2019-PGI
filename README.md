@@ -19,17 +19,22 @@ We propose a new framework for incorporating petrophysical and geological inform
 
 ## Contents
 
-There are 4 notebooks in this repository:
+There are 3 notebooks in this repository:
 
-- [1_TEM_VerticalConductor_2D_forward.ipynb](/notebooks/1_TEM_VerticalConductor_2D_forward.ipynb) : runs a forward simulation of an airborne electromagnetic simulation over a conductive plate. This notebook was used to generate figures 1-4 in the abstract
-- [2_TEM_VerticalConductor_1D_stitched_inversion.ipynb](/notebooks/2_TEM_VerticalConductor_1D_stitched_inversion.ipynb) : Using the forward simulated data from the previous notebook, we run 1D inversions over the plate (Figure 5 in the abstract).
-- [3_TEM_VerticalConductor_2D_inversion_load.ipynb](/notebooks/3_TEM_VerticalConductor_2D_inversion_load.ipynb) : This notebook loads the 2D inversion results over the plate (Figure 6 in the abstract). The 2D inversion was run using the script [2dinv_smooth.py](/notebooks/2d_inv_smooth/2dinv_smooth.py).
-- [4_TEM_VerticalConductor_parametric_inversion_load.ipynb](/notebooks/4_TEM_VerticalConductor_parametric_inversion_load.ipynb) : This notebook loads the 2D parametric inversion inversion results (Figure 7 in the abstract). The 2D parametric inversion was run using the script [2dinv_parametric.py](/notebooks/2d_inv_parametric/2d_inv_parametric.py) .
+- [1_MT_PGI_Sharp_Smooth.ipynb](notebooks/1_MT_PGI_Sharp_Smooth.ipynb)
 
-In addition, there are two notebooks used for demos in the workshop [3D EM Modelling and Inversion with Open Source Resources](https://courses.geosci.xyz/aem2018):
+    - Magnetotelluric data are acquired over a layered-earth that has sharp and smooth features. The PGI algorithm is provided with the true petrophysical distribution and the goal is to use it along with the MT data to find a solution that has the desired contrast features.
 
-- [TEM_VerticalConductor_2D_forward.ipynb](/demo_notebooks/TEM_VerticalConductor_2D_forward.ipynb) : runs a forward simulation of an airborne electromagnetic simulation over a conductive plate. Similar to that in the notebooks directory.
-- [TDEM_1D_inversion.ipynb](/demo_notebooks/TDEM_1D_inversion.ipynb): In this notebook, we run a 1D inversion for a single airborne time domain EM sounding
+
+- [2_DC_PGI_2cylinders.ipynb](notebooks/2_DC_PGI_2cylinders.ipynb)
+
+    - A DC resistivity profile is acquired over two cylinders. We illustrate the performance of this framework when no physical property mean values are available, and compared it to the result with full petrophysical information. We highlight then how geological information from borehole logs can be incorporated into this framework.
+
+
+- [3_FDEM_PGI_Bookpurnong.ipynb](notebooks/3_FDEM_PGI_Bookpurnong.ipynb)
+
+    - This example illustrates an application of the PGI approach on a field frequency-domain EM dataset, in conjunction with a structurally constraining regularization, without using extensive geological or petrophysical information. We demonstrate how to use this framework to test hypothesis, such as a recovering a specific number of distinct units, and to build confidence, or doubts, in geological features displayed by the inversions.
+
 
 ## Usage
 
@@ -58,7 +63,7 @@ To setup your software environment, we recommend you use the provided conda envi
 
 ```
 conda env create -f environment.yml
-conda activate aem-environment
+conda activate pgi-environment
 ```
 
 

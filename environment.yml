@@ -1,4 +1,4 @@
-name: PGI-environment
+name: pgi-environment
 
 channels:
   - conda-forge
