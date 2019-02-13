@@ -1,0 +1,21 @@
+name: pgi-environment
+
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - numpy
+  - scipy>=1.0.0
+  - matplotlib
+  - ipywidgets>=0.6.0
+  - mkl
+  - scikit-learn
+  - seaborn
+#  - gcc
+  - pip:
+    - h5py
+    - pymatsolver
+    - discretize
+    - git+https://github.com/simpeg/simpeg.git@examples/PGI
+    - git+https://github.com/simpeg/simpegEM1D@master
+    - git+https://github.com/simpeg/tle-magnetotelluric_inversion@setup
