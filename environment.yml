@@ -11,8 +11,9 @@ dependencies:
   - mkl
   - scikit-learn
   - seaborn
-  - gcc
-  - jupyter_client
+#  - gcc
+#  - tarfile
+#  - h5py
   - pip:
     - pymatsolver
     - discretize
