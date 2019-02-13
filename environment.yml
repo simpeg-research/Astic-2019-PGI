@@ -10,8 +10,6 @@ dependencies:
   - scikit-learn
   - seaborn
   - mkl
-  - apt:
-    - gcc
   - pip:
     - h5py
     - pymatsolver
