@@ -26,4 +26,4 @@ install:
   - pip install -r requirements_dev.txt
 
 script:
-  - travis_wait 60 nosetests tests -v -s
+  - travis_wait 120 nosetests tests -v -s
