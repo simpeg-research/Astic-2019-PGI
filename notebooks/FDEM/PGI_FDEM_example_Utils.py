@@ -31,6 +31,7 @@ def download_and_unzip_data(
 
     return downloads, directory
 
+
 def plot2Ddata_categorical(
     xyz, data, vec=False, nx=50, ny=50,
     ax=None, mask=None, level=False, figname=None,
