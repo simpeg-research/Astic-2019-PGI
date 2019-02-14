@@ -21,17 +21,17 @@ We propose a new framework for incorporating petrophysical and geological inform
 
 There are 3 notebooks in this repository:
 
-- [1_MT_PGI_Sharp_Smooth.ipynb](notebooks/1_MT_PGI_Sharp_Smooth.ipynb)
+- [1_MT_PGI_Sharp_Smooth.ipynb](notebooks/MT/1_MT_PGI_Sharp_Smooth.ipynb)
 
     - Magnetotelluric data are acquired over a layered-earth that has sharp and smooth features. The PGI algorithm is provided with the true petrophysical distribution and the goal is to use it along with the MT data to find a solution that has the desired contrast features.
 
 
-- [2_DC_PGI_2cylinders.ipynb](notebooks/2_DC_PGI_2cylinders.ipynb)
+- [2_DC_PGI_2cylinders.ipynb](notebooks/DC/2_DC_PGI_2cylinders.ipynb)
 
     - A DC resistivity profile is acquired over two cylinders. We illustrate the performance of this framework when no physical property mean values are available, and compared it to the result with full petrophysical information. We highlight then how geological information from borehole logs can be incorporated into this framework.
 
 
-- [3_FDEM_PGI_Bookpurnong.ipynb](notebooks/3_FDEM_PGI_Bookpurnong.ipynb)
+- [3_FDEM_PGI_Bookpurnong.ipynb](notebooks/FDEM/3_FDEM_PGI_Bookpurnong.ipynb)
 
     - This example illustrates an application of the PGI approach on a field frequency-domain EM dataset, in conjunction with a structurally constraining regularization, without using extensive geological or petrophysical information. We demonstrate how to use this framework to test hypothesis, such as a recovering a specific number of distinct units, and to build confidence, or doubts, in geological features displayed by the inversions.
 
