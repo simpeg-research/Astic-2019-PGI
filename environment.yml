@@ -7,11 +7,9 @@ dependencies:
   - numpy
   - scipy>=1.0.0
   - matplotlib
-  - ipywidgets>=0.6.0
-  - mkl
   - scikit-learn
   - seaborn
-#  - gcc
+  - mkl
   - pip:
     - h5py
     - pymatsolver

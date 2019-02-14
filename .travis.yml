@@ -10,8 +10,12 @@ language: generic
 sudo: false
 
 addons:
-  apt_packages:
+  apt:
+    packages:
+    - gcc
     - gfortran
+    - libblas-dev
+    - liblapack-dev
 
 env:
   - TEST_DIR=tests/MT
