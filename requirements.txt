@@ -1,9 +1,12 @@
 numpy
-scipy
+scipy>=1.0.0
 matplotlib
-seaborn
 scikit-learn
-ipywidgets
-discretize
-SimPEG
+seaborn
+mkl
+h5py
 pymatsolver
+discretize
+git+https://github.com/simpeg/simpeg.git@examples/PGI
+git+https://github.com/simpeg/simpegEM1D@examples/PGI
+git+https://github.com/simpeg/tle-magnetotelluric_inversion@master
