@@ -4,16 +4,16 @@ channels:
   - conda-forge
   - defaults
 dependencies:
-  - numpy
-  - scipy>=1.0.0
-  - matplotlib
-  - scikit-learn
-  - seaborn
-  - mkl
+  - numpy=1.15.4
+  - scipy=1.1.0
+  - matplotlib=3.0.2
+  - scikit-learn=0.20.0
+  - seaborn=0.9.0
+  - mkl=2019.1
   - pip:
-    - h5py
-    - pymatsolver
-    - discretize
+    - h5py==2.9.0
+    - pymatsolver==0.1.2
+    - discretize==0.3.8
     - git+https://github.com/simpeg/simpeg.git@examples/PGI
     - git+https://github.com/simpeg/simpegEM1D@examples/PGI
     - git+https://github.com/simpeg/tle-magnetotelluric_inversion@master

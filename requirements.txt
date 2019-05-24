@@ -1,12 +1,12 @@
-numpy
-scipy>=1.0.0
-matplotlib
-scikit-learn
-seaborn
-mkl
-h5py
-pymatsolver
-discretize
-git+https://github.com/simpeg/simpeg.git@examples/PGI
-git+https://github.com/simpeg/simpegEM1D@examples/PGI
-git+https://github.com/simpeg/tle-magnetotelluric_inversion@master
+numpy=1.15.4
+scipy=1.1.0
+matplotlib=3.0.2
+scikit-learn=0.20.0
+seaborn=0.9.0
+mkl=2019.1
+h5py==2.9.0
+pymatsolver==0.1.2
+discretize==0.3.8
+-e git:https://github.com/simpeg/simpeg.git@examples/PGI
+-e git:https://github.com/simpeg/simpegEM1D@examples/PGI
+-e git:https://github.com/simpeg/tle-magnetotelluric_inversion@master
