@@ -95,6 +95,23 @@ Please [make an issue](https://github.com/simpeg-research/Astic_2019_PGI/issues)
 
 If you build upon or use these examples in your work, please cite:
 
+
+Astic T., Oldenburg D.W. (2019). A framework for petrophysically and geologically guided geophysical inversion using a dynamic Gaussian mixture model prior, Geophysical Journal International, https://doi.org/10.1093/gji/ggz389
+
+```
+@article{10.1093/gji/ggz389,
+    author = {Astic, Thibaut and Oldenburg, Douglas W},
+    title = "{A framework for petrophysically and geologically guided geophysical inversion using a dynamic Gaussian mixture model prior}",
+    journal = {Geophysical Journal International},
+    year = {2019},
+    month = {08},
+    issn = {0956-540X},
+    doi = {10.1093/gji/ggz389},
+    url = {https://doi.org/10.1093/gji/ggz389},
+    eprint = {http://oup.prod.sis.lan/gji/advance-article-pdf/doi/10.1093/gji/ggz389/29350104/ggz389.pdf},
+}
+```
+
 Astic, T. & Oldenburg, D. W. (2018). Petrophysically guided geophysical inversion using a dynamic Gaussian mixture model prior. In SEG Technical Program Expanded Abstracts 2018 (pp. 2312-2316).
 
 
