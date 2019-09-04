@@ -1,6 +1,6 @@
 **[summary](#summary) | [contents](#contents) | [usage](#usage) | [running the notebooks](#running-the-notebooks) | [issues](#issues) | [citation](#citation) | [license](#license)**
 
-# Open source software for petrophysically and geologically guided geophysical inversion
+# Open source software for petrophysically and geologically guided geophysical inversion (PGI)
 
 [![Build Status](https://travis-ci.org/simpeg-research/Astic-2019-PGI.svg?branch=master)](https://travis-ci.org/simpeg-research/Astic-2019-PGI)
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/simpeg-research/Astic-2019-PGI/master?filepath=index.ipynb)
