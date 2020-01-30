@@ -112,7 +112,7 @@ Astic T., Oldenburg D.W. (2019). A framework for petrophysically and geologicall
 }
 ```
 
-Astic, T. & Oldenburg, D. W. (2018). Petrophysically guided geophysical inversion using a dynamic Gaussian mixture model prior. In SEG Technical Program Expanded Abstracts 2018 (pp. 2312-2316).
+Astic, T. & Oldenburg, D. W. (2018). Petrophysically guided geophysical inversion using a dynamic Gaussian mixture model prior. In SEG Technical Program Expanded Abstracts 2018 (pp. 2312-2316). https://10.1190/segam2018-2995155.1
 
 
 ```
