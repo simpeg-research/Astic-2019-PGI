@@ -112,7 +112,7 @@ Astic T., Oldenburg D.W. (2019). A framework for petrophysically and geologicall
 }
 ```
 
-Astic, T. & Oldenburg, D. W. (2018). Petrophysically guided geophysical inversion using a dynamic Gaussian mixture model prior. In SEG Technical Program Expanded Abstracts 2018 (pp. 2312-2316). https://10.1190/segam2018-2995155.1
+Astic, T. & Oldenburg, D. W. (2018). Petrophysically guided geophysical inversion using a dynamic Gaussian mixture model prior. In SEG Technical Program Expanded Abstracts 2018 (pp. 2312-2316). https://doi.org/10.1190/segam2018-2995155.1
 
 
 ```
@@ -131,7 +131,7 @@ eprint = {https://library.seg.org/doi/pdf/10.1190/segam2018-2995155.1}
 
 These examples were built following the structures developed by Heagy et al.(2018)
 
-Heagy, L. J., Kang, S., Cockett, R., & Oldenburg, D. W. (2018). Open source software for simulations and inversions of airborne electromagnetic data. In 7th International Workshop on Airborne Electromagnetics (pp. 1–5).
+Heagy, L. J., Kang, S., Cockett, R., & Oldenburg, D. W. (2018). Open source software for simulations and inversions of airborne electromagnetic data. In 7th International Workshop on Airborne Electromagnetics (pp. 1–5). https://doi.org/10.1016/j.cageo.2017.06.018
 
 ```
 @inproceedings{Heagy2018,
