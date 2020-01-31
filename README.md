@@ -9,7 +9,7 @@
 [![License](https://img.shields.io/github/license/simpeg-research/Astic-2019-PGI.svg)](https://github.com/simpeg-research/Astic-2019-PGI/blob/master/LICENSE)
 [![SimPEG](https://img.shields.io/badge/powered%20by-SimPEG-blue.svg)](http://simpeg.xyz)
 
-Notebooks and python scripts to reproduce the figures shown in Astic & Oldenburg (2019). Implemented as part of the [<tt>`SimPEG`</tt> package](https://simpeg.xyz/))
+Notebooks and python scripts to reproduce the figures shown in Astic & Oldenburg (2019). Implemented as part of the [<tt>`SimPEG`</tt> package](https://simpeg.xyz/).
 
 <img src="figures/DCexample_summary.png" width=50% align="middle">
 
