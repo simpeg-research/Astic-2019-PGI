@@ -38,6 +38,10 @@ There are 3 notebooks in this repository:
 
 ## Usage
 
+### We encourage the use of the services provided by My Binders to run these examples on the cloud: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/simpeg-research/Astic-2019-PGI/master?filepath=index.ipynb)
+
+### If you wish to run these examples locally, please follow these instructions:
+
 Dependencies are specified in [requirements.txt](/requirements.txt)
 
 ```
