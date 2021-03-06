@@ -42,12 +42,6 @@ There are 3 notebooks in this repository:
 
 ### If you wish to run these examples locally, please follow these instructions:
 
-Dependencies are specified in [requirements.txt](/requirements.txt)
-
-```
-pip install -r requirements.txt
-```
-
 To run the notebooks locally, you will need to have python installed,
 preferably through [anaconda](https://www.anaconda.com/download/) .
 
